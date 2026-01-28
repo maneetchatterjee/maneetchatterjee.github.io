@@ -1,0 +1,26 @@
+{
+  "qegan": {
+    "mean_reward": -15.73888045388426,
+    "std_reward": 7.298572270796651,
+    "mean_formation_error": 0.17417355644105076,
+    "std_formation_error": 0.04954128020033585,
+    "collision_rate": 0.0,
+    "success_rate": 1.0
+  },
+  "classical_gnn": {
+    "mean_reward": -26.249509488675983,
+    "std_reward": 9.371802152007657,
+    "mean_formation_error": 0.289644649882424,
+    "std_formation_error": 0.05462261273925744,
+    "collision_rate": 0.15,
+    "success_rate": 0.85
+  },
+  "vanilla_qgnn": {
+    "mean_reward": -21.691176169675025,
+    "std_reward": 9.909939074247097,
+    "mean_formation_error": 0.23392845561475445,
+    "std_formation_error": 0.04886502790158335,
+    "collision_rate": 0.05,
+    "success_rate": 0.95
+  }
+}

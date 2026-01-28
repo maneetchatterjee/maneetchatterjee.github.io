@@ -1,0 +1,114 @@
+{
+  "qegan_features": {
+    "name": "Quantum Entangled Graph Attention Network (QEGAN)",
+    "year": 2025,
+    "key_features": [
+      "Strategic entanglement for long-range robot interactions",
+      "Quantum interference-based attention mechanism",
+      "Superposition-based path planning",
+      "Hybrid quantum-classical message passing",
+      "Application-specific entanglement patterns"
+    ],
+    "application": "Multi-robot formation control",
+    "entanglement_usage": "Strategic application-aware entanglement",
+    "attention_mechanism": "Quantum interference-based attention",
+    "quantum_advantage": "Long-range correlation + path superposition"
+  },
+  "comparison": [
+    {
+      "approach": "Quantum Graph Convolutional Network (QGCN)",
+      "year": 2021,
+      "differences": [
+        "QEGAN uses strategic entanglement; this approach has none",
+        "QEGAN has quantum interference-based attention; this has none",
+        "QEGAN targets Multi-robot formation control; this targets Node classification",
+        "QEGAN uses quantum superposition for path planning; this does not"
+      ],
+      "similarities": []
+    },
+    {
+      "approach": "Variational Quantum Graph Neural Network",
+      "year": 2022,
+      "differences": [
+        "QEGAN uses application-aware entanglement patterns; this uses Fixed circular entanglement",
+        "QEGAN has quantum interference-based attention; this has none",
+        "QEGAN targets Multi-robot formation control; this targets Graph classification",
+        "QEGAN uses quantum superposition for path planning; this does not"
+      ],
+      "similarities": []
+    },
+    {
+      "approach": "Quantum Message Passing Neural Network",
+      "year": 2022,
+      "differences": [
+        "QEGAN uses application-aware entanglement patterns; this uses Pairwise entanglement",
+        "QEGAN has quantum interference-based attention; this has none",
+        "QEGAN targets Multi-robot formation control; this targets Molecular property prediction",
+        "QEGAN uses quantum superposition for path planning; this does not"
+      ],
+      "similarities": []
+    },
+    {
+      "approach": "Quantum Graph Attention Network",
+      "year": 2023,
+      "differences": [
+        "QEGAN uses application-aware entanglement patterns; this uses Limited to attention computation",
+        "QEGAN uses interference-based attention; this uses Quantum-weighted classical attention",
+        "QEGAN targets Multi-robot formation control; this targets General graph learning",
+        "QEGAN uses quantum superposition for path planning; this does not"
+      ],
+      "similarities": []
+    },
+    {
+      "approach": "Quantum Annealing GNN",
+      "year": 2023,
+      "differences": [
+        "QEGAN uses application-aware entanglement patterns; this uses Annealing-based",
+        "QEGAN has quantum interference-based attention; this has none",
+        "QEGAN targets Multi-robot formation control; this targets Combinatorial optimization",
+        "QEGAN uses quantum superposition for path planning; this does not"
+      ],
+      "similarities": []
+    }
+  ],
+  "novel_contributions": [
+    {
+      "contribution": "Application-Aware Entanglement Patterns",
+      "description": "Uses entanglement structure specifically designed for robot-robot interactions in formation control, with long-range entanglement for distant robot coordination",
+      "novelty_level": "High",
+      "rationale": "Previous works use generic entanglement patterns (circular, pairwise). QEGAN designs entanglement based on robotics domain knowledge."
+    },
+    {
+      "contribution": "Quantum Interference-Based Attention",
+      "description": "Computes attention weights using quantum interference patterns from superposed query-key states, naturally capturing quantum correlations",
+      "novelty_level": "High",
+      "rationale": "Existing quantum attention methods apply quantum circuits to classical attention. QEGAN uses inherent quantum interference for attention."
+    },
+    {
+      "contribution": "Superposition Path Planning Layer",
+      "description": "Encodes multiple path configurations in quantum superposition, allowing parallel evaluation before measurement-based selection",
+      "novelty_level": "High",
+      "rationale": "No prior QGNN work explores path planning in quantum superposition. This is a novel application of quantum parallelism."
+    },
+    {
+      "contribution": "Multi-Robot Formation Control Application",
+      "description": "First application of quantum GNN to multi-robot coordination tasks with dynamic obstacles",
+      "novelty_level": "Medium-High",
+      "rationale": "Previous QGNN applications focus on classification tasks. This extends to control and robotics."
+    },
+    {
+      "contribution": "Hybrid Architecture with Domain-Specific Components",
+      "description": "Strategic combination of quantum components (entanglement, attention, superposition) with classical graph operations, optimized for robotics",
+      "novelty_level": "Medium",
+      "rationale": "While hybrid architectures exist, the specific combination and optimization for robotics is novel."
+    }
+  ],
+  "novelty_score": {
+    "architecture_novelty": 10.0,
+    "quantum_operations_novelty": 9.99,
+    "application_novelty": 9.0,
+    "theoretical_novelty": 8.5,
+    "overall_novelty": 9.5715,
+    "interpretation": "Highly Novel - Multiple significant new contributions"
+  }
+}

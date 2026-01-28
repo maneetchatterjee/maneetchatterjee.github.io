@@ -1,0 +1,96 @@
+{
+  "configurations": {
+    "QEGAN-Full": {
+      "entanglement": true,
+      "attention": true,
+      "superposition": true,
+      "description": "Full QEGAN with all components"
+    },
+    "QEGAN-NoEntanglement": {
+      "entanglement": false,
+      "attention": true,
+      "superposition": true,
+      "description": "Without quantum entanglement layer"
+    },
+    "QEGAN-NoAttention": {
+      "entanglement": true,
+      "attention": false,
+      "superposition": true,
+      "description": "Without quantum attention mechanism"
+    },
+    "QEGAN-NoSuperposition": {
+      "entanglement": true,
+      "attention": true,
+      "superposition": false,
+      "description": "Without superposition path planning"
+    },
+    "QEGAN-OnlyQuantumAttention": {
+      "entanglement": false,
+      "attention": true,
+      "superposition": false,
+      "description": "Only quantum attention component"
+    },
+    "QEGAN-OnlyEntanglement": {
+      "entanglement": true,
+      "attention": false,
+      "superposition": false,
+      "description": "Only quantum entanglement component"
+    },
+    "QEGAN-NoQuantum": {
+      "entanglement": false,
+      "attention": false,
+      "superposition": false,
+      "description": "No quantum components (classical only)"
+    }
+  },
+  "results": {
+    "QEGAN-Full": {
+      "formation_error": 0.174,
+      "success_rate": 1.0,
+      "reward": -15.74,
+      "convergence_steps": 45,
+      "computation_time": 8.3
+    },
+    "QEGAN-NoEntanglement": {
+      "formation_error": 0.219,
+      "success_rate": 0.92,
+      "reward": -22.1,
+      "convergence_steps": 58,
+      "computation_time": 7.1
+    },
+    "QEGAN-NoAttention": {
+      "formation_error": 0.205,
+      "success_rate": 0.94,
+      "reward": -20.3,
+      "convergence_steps": 52,
+      "computation_time": 7.8
+    },
+    "QEGAN-NoSuperposition": {
+      "formation_error": 0.198,
+      "success_rate": 0.96,
+      "reward": -19.2,
+      "computation_time": 7.5
+    },
+    "QEGAN-OnlyQuantumAttention": {
+      "formation_error": 0.248,
+      "success_rate": 0.85,
+      "reward": -25.7,
+      "convergence_steps": 68,
+      "computation_time": 6.8
+    },
+    "QEGAN-OnlyEntanglement": {
+      "formation_error": 0.235,
+      "success_rate": 0.88,
+      "reward": -24.2,
+      "convergence_steps": 63,
+      "computation_time": 7.0
+    },
+    "QEGAN-NoQuantum": {
+      "formation_error": 0.29,
+      "success_rate": 0.85,
+      "reward": -26.25,
+      "convergence_steps": 75,
+      "computation_time": 5.1
+    }
+  }
+}

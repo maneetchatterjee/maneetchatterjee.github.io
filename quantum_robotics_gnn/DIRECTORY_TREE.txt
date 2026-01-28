@@ -1,0 +1,98 @@
+.
+├── DIRECTORY_TREE.txt
+├── PROJECT_OVERVIEW.md
+├── PUBLICATION_README.md
+├── README.md
+├── README_NEW.md
+├── RESULTS_SUMMARY.md
+├── SUMMARY.md
+├── ablation_study.py
+├── additional_baselines.py
+├── baseline_models.py
+├── benchmark_comparison.py
+├── docs
+│   ├── PUBLICATION_README.md
+│   ├── RESULTS_SUMMARY.md
+│   └── SUMMARY.md
+├── experiments
+│   ├── configs
+│   └── scripts
+│       ├── run_comprehensive_experiments.py
+│       ├── run_demo.py
+│       └── run_experiments.py
+├── generate_all_visuals.py
+├── generate_animations.py
+├── generate_consolidated_results.py
+├── generate_diagrams.py
+├── novelty_analysis.json
+├── novelty_analysis.py
+├── outputs
+│   ├── CONSOLIDATED_RESULTS.txt
+│   ├── ablation_study
+│   │   └── README.md
+│   ├── animations
+│   │   └── README.md
+│   ├── architecture_diagrams
+│   │   └── README.md
+│   ├── benchmark_results
+│   │   └── README.md
+│   ├── experimental_results
+│   │   ├── comprehensive_comparison.png
+│   │   ├── evaluation_results.json
+│   │   ├── experimental_report.txt
+│   │   ├── formation_error.png
+│   │   ├── novelty_analysis.json
+│   │   ├── novelty_report.txt
+│   │   ├── statistics.json
+│   │   ├── success_rate.png
+│   │   ├── training_results.json
+│   │   └── training_rewards.png
+│   └── visualizations
+│       └── README.md
+├── pybullet_environment.py
+├── qegan_model.py
+├── reorganize_repository.py
+├── requirements.txt
+├── results
+│   ├── CONSOLIDATED_RESULTS.txt
+│   ├── comprehensive_comparison.png
+│   ├── evaluation_results.json
+│   ├── experimental_report.txt
+│   ├── formation_error.png
+│   ├── novelty_report.txt
+│   ├── statistics.json
+│   ├── success_rate.png
+│   ├── training_results.json
+│   └── training_rewards.png
+├── robot_environment.py
+├── run_comprehensive_experiments.py
+├── run_demo.py
+├── run_experiments.py
+└── src
+    ├── __init__.py
+    ├── analysis
+    │   ├── __init__.py
+    │   ├── ablation_study.py
+    │   ├── benchmark_comparison.py
+    │   └── novelty_analysis.py
+    ├── baselines
+    │   ├── __init__.py
+    │   ├── additional_baselines.py
+    │   └── baseline_models.py
+    ├── environments
+    │   ├── __init__.py
+    │   ├── pybullet_environment.py
+    │   └── robot_environment.py
+    ├── experiments
+    │   └── __init__.py
+    ├── models
+    │   ├── __init__.py
+    │   └── qegan_model.py
+    └── visualization
+        ├── __init__.py
+        ├── generate_all_visuals.py
+        ├── generate_animations.py
+        ├── generate_consolidated_results.py
+        └── generate_diagrams.py
+
+20 directories, 76 files
