@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maneetchatterjee.github.io/sitemap.xml
