@@ -1,378 +1,111 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-  <style type="text/css">
-  /* Design Credits: Arnav Jain, Nilesh Gupta, Aditya Kusupati, Jon Barron, Deepak Pathak and Saurabh Gupta*/
-  
-  /* Dark mode toggle button */
-  .theme-toggle {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    color: #333;
-    transition: color 0.2s ease;
-  }
-  
-  .theme-toggle:hover {
-    color: #1772d0;
-  }
-  
-  /* Light mode (default) */
-  :root {
-    --bg-color: #ffffff;
-    --text-color: #333333;
-    --link-color: #1772d0;
-    --link-hover-color: #f5b461;
-    --border-color: #e0e0e0;
-  }
-  
-  /* Dark mode */
-  [data-theme="dark"] {
-    --bg-color: #1a1a1a;
-    --text-color: #e0e0e0;
-    --link-color: #4a9eff;
-    --link-hover-color: #ffb366;
-    --border-color: #404040;
-  }
-  
-  body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    transition: background-color 0.2s ease, color 0.2s ease;
-  }
-  
-  a {
-    color: var(--link-color);
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-  
-  a:focus, a:hover {
-    color: var(--link-hover-color);
-    text-decoration: none;
-  }
-  
-  body,td,th {
-     font-family: 'Source Sans Pro', Arial, sans-serif;
-     font-size: 16px;
-     font-weight: 400;
-     color: var(--text-color);
-  }
-  
-  heading {
-     font-family: 'Source Sans Pro', Arial, sans-serif;
-     font-size: 19px;
-     font-weight: 600;
-     color: var(--text-color);
-  }
-  
-  strong {
-     font-family: 'Source Sans Pro', Arial, sans-serif;
-     font-size: 16px;
-     font-weight: 800;
-     color: var(--text-color);
-  }
-  
-  strongred {
-     font-family: 'Source Sans Pro', Arial, sans-serif;
-     color: 'red' ;
-     font-size: 16px
-  }
-  
-  sectionheading {
-     font-family: 'Source Sans Pro', Arial, sans-serif;
-     font-size: 22px;
-     font-weight: 600;
-     color: var(--text-color);
-  }
-  
-  pageheading {
-     font-family: 'Source Sans Pro', Arial, sans-serif;
-     font-size: 60px;
-     font-weight: 400;
-     color: var(--text-color);
-  }
-  
-  table {
-    background-color: var(--bg-color);
-  }
-  
-  td {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-  }
-  </style>
-  <!-- <link rel="icon" type="image/png" href="images/W.png"> -->
-  <script type="text/javascript" src="js/hidebib.js"></script>
-  <!-- <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=871dF8aWgRZTPcreDIgsgSm9bKNiARUklmoWvqiRVbs"></script> -->
-
-  <title>Maneet Chatterjee</title>
-  <link rel = "icon" href = "" type = "image/x-icon">
-  <meta name="Maneet Chatterjee" http-equiv="Content-Type" content="Maneet Chatterjee">
-  <!-- link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'> -->
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="js/toggle.js"></script>
-  <!-- Start : Google Analytics Code -->
-  <!-- <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-90394621-1', 'auto');
-  ga('send', 'pageview');
-
-  </script> -->
-  <!-- End : Google Analytics Code -->
-  <!-- Scramble Script by Jeff Donahue -->
-  <script src="js/scramble.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Maneet Chatterjee | Robotics, AI & Aerospace Research</title>
+  <meta name="description" content="Maneet Chatterjee — Mechanical Engineering undergraduate at IIEST Shibpur. Research in robotics, generative aircraft design, computer vision, and physics-based simulation.">
+  <link rel="canonical" href="https://maneetchatterjee.github.io/">
+  <meta property="og:title" content="Maneet Chatterjee | Research & Engineering">
+  <meta property="og:description" content="Robotics, generative design, and computer vision grounded in physics and validation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://maneetchatterjee.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/theme.js"></script>
+  <script src="assets/site.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Maneet Chatterjee","url":"https://maneetchatterjee.github.io/","email":"mailto:maneet2018@gmail.com","affiliation":{"@type":"CollegeOrUniversity","name":"Indian Institute of Engineering Science and Technology Shibpur"},"sameAs":["https://github.com/maneetchatterjee","https://www.linkedin.com/in/maneet-chatterjee-778441190/","https://scholar.google.com/citations?user=Z3N1lSMAAAAJ"]}</script>
 </head>
-
 <body>
-  <!-- Dark mode toggle button -->
-  <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">
-    <i class="fa fa-moon-o" id="theme-icon"></i>
-  </button>
-<table width="840" border="0" align="center" border="0" cellspacing="0" cellpadding="20">
-<tr><td>
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-	<p align="left">
-		<center><pageheading>Maneet Chatterjee</pageheading><br>
-		<b>&nbsp;Email</b>: <a href="mailto:maneet2018@gmail.com">maneet2018@gmail.com</a> | <a href="mailto:2023meb045.maneet@students.iiests.ac.in">2023meb045.maneet@students.iiests.ac.in</a></center>
-	</p>
-
-	<tr>
-		<td width="32%" valign="top"><a href="#Bio">
-			<img src="Images/maneet_profile.jpg" width="100%" style="border-radius:15px"></a>
-			<p align=center>
-				<a href="https://scholar.google.com/citations?user=Z3N1lSMAAAAJ&hl=en" target="_blank">Google Scholar</a> | 
-        <a href="https://github.com/maneetchatterjee" target="_blank">Github</a> |
-        <a href="https://www.linkedin.com/in/maneet-chatterjee-778441190/" target="_blank"> LinkedIn </a> |
-        <!-- <br><br>
-        <a href="https://topmate.io/vansh_ramani" target="_blank"> Connect 1:1 with me!</a> -->
-      </p>
-      <p align=center>
-        More about me: 
-        <a href="content/blogs.html" target="_blank"> Blog </a> |
-        <a href="content/coursework.html" target="_blank"> Coursework </a> |
-        <a href="content/projects.html" target="_blank"> Ongoing Projects</a>
-      </p>
-		</td>
-
-		<td width="68%" valign="top" align="justify" id="Bio">
-			I am a third-year undergraduate in Mechanical Engineering at <a href="https://www.iiests.ac.in/" target="_blank">Indian Institute of Engineering Science and Technology Shibpur</a> 
-      with a deep interest in Robotics, Artificial Intelligence and its applications. My work spans robotic manipulation, computer vision, IoT architectures, and simulation-based control, with hands-on 
-      experience in ROS, Isaac Sim, PyBullet, Blender, and embedded systems. Recently, I've been exploring Reinforcement Learning and SLAM in robotics. 
-      
-      <br><br>
-      I recently completed a Research & Development (R&D) Internship at <a href="https://www.synopsys.com/" target="_blank">Synopsys</a> 
-      working with <a href="https://www.linkedin.com/in/vinod-singh-rao-b267a928/" target="_blank">Vinod Singh Rao</a> and <a href="https://www.linkedin.com/in/gopal-sharma-3373a1172/" target="_blank">Gopal Sharma</a> in the 
-      Synopsys Innovation Group (SIG)</a>. My research focused on IoT, digital twins, computer vision and robotic manipulations.
-      
-      <br><br>
-      Previously, I was a Research Assistant at <a href="https://www.iiests.ac.in/" target="_blank">IIEST Shibpur</a> with 
-      <a href="https://www.iiests.ac.in/IIEST/Faculty/mech-ghoshsudip" target="_blank">Dr. Sudip Ghosh</a>, working on photovoltaic cells and their use in hydrogen production for small scale industries.
-     
-      <br><br>
-      I am a passionate photographer and spend time clicking pictures around in my city (Kolkata) in my leisure time. I also love reading about finance and geopolitics. I also play football and cricket.
-
-      <br><br>
-      I am always open to collaborations and discussions. Please feel free to reach out!
-
-      <p align=center>
-        Other:
-        <a href="content/achievements.html" target="_blank"> Achievements </a> |
-        <a href="content/free.html" target="_blank"> Fun/Favorites</a>
-			</p>
-		</td>
-	</tr>
-</table>
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
-	<tr><td id="Publications"> <sectionheading>&nbsp;&nbsp;Recent News</sectionheading><div style="float: right;"></div></td></tr>
-</table>
-<table width="100%" align="center">
-  <tr>
-    <td width="15%">&nbsp;&nbsp;&nbsp;&nbsp; [Oct 25]</td>
-    <td width="85%">First Technical Paper "Framework for Digitalization of Brownfield Deploymentsusing IT-OT Integration and Digital Twins", with Synopsys, accepted at <a href="https://aiiot2025.iiests.ac.in/" target="_blank">AIIoT 2025</a>! <a href="https://www.linkedin.com/in/maneet-chatterjee-778441190/recent-activity/all/" target="_blank">[LinkedIn]</a></td>
-  </tr>
-  <tr>
-    <td width="15%">&nbsp;&nbsp;&nbsp;&nbsp; [Oct 25]</td>
-    <td width="85%">Our research work at Synopsys was presented at the prestigious Ansys(part of Synopsys) TechCon Conference, Pittsburgh, USA! <a href="https://www.linkedin.com/posts/prith-banerjee_ansys-synopsys-techcon-activity-7387230602963480576-RNIm?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACzqPwwBNLSoRwcjjB7wM7ML_4N06j0Ryhs" target="_blank">[LinkedIn]</a></td>
-  </tr>
-  <tr>
-    <td width="15%">&nbsp;&nbsp;&nbsp;&nbsp; [Oct 25]</td>
-    <td width="85%">Paper "Beyond CNNs: EfficientMamba Powered Sequence Learning and Curriculum-Guided Domain Adaptation for Fossil Classification" accepted at <a href="https://www.ingarss-2025.in/" target="_blank">InGARSS 2025</a>! <a href="https://www.linkedin.com/in/maneet-chatterjee-778441190/recent-activity/all/" target="_blank">[LinkedIn]</a></td>
-  </tr>
-  <tr>
-    <td width="15%">&nbsp;&nbsp;&nbsp;&nbsp; [Jul 25]</td>
-    <td width="85%">Completed summer internship at <a href="https://www.synopsys.com/" target="_blank">Synopsys - SIG</a>! Worked on IT-OT integration, robotics and computer vison. <a href="https://www.linkedin.com/in/maneet-chatterjee-778441190/recent-activity/all/" target="_blank">[LinkedIn]</a></td>
-  </tr>
-  <tr>
-    <td width="15%">&nbsp;&nbsp;&nbsp;&nbsp; [Apr 25]</td>
-    <td width="85%">Received the prestigious IEEE Geoscience and Remote Sensing Society Travel Grant of US $1,550.0 to present at <a href="https://2025.ieeeigarss.org/" target="_blank">IGARSS 2025</a>. <a href="https://www.linkedin.com/in/maneet-chatterjee-778441190/recent-activity/all/" target="_blank">[LinkedIn]</a></td>
-  </tr>
-  <tr>
-    <td width="15%">&nbsp;&nbsp;&nbsp;&nbsp; [Mar 25]</td>
-    <td width="85%">Paper "EEMAMBA: A Hardware-Aware Energy-Efficient State-Space Model for EUROSAT Classification" accepted at <a href="https://2025.ieeeigarss.org/" target="_blank">IGARSS 2025</a>! <a href="https://www.linkedin.com/in/maneet-chatterjee-778441190/recent-activity/all/" target="_blank">[LinkedIn]</a></td>
-  </tr>
-  <tr>
-    <td width="15%">&nbsp;&nbsp;&nbsp;&nbsp; [June 24]</td>
-    <td width="85%">First-author paper published in <a href="https://ieeexplore.ieee.org/abstract/document/10545663" target="_blank">IEEE Xplore</a>! <a href="https://www.linkedin.com/in/maneet-chatterjee-778441190/recent-activity/all/" target="_blank">[LinkedIn]</a></td>
-  </tr>
-</table>
-
-
-
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
-	<tr><td id="Publications"> <sectionheading>&nbsp;&nbsp;Publications</sectionheading><div style="float: right;"></div></td></tr>
-</table>
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-  <tr>
-		<td width="33%" valign="top" align="center"><a href="https://arxiv.org/" target="_blank"><img src="Images/Digitaltwin.png" alt="DigitalTwin" width="100%" style="border-radius:1px"></a></td>
-		<td width="67%" valign="top">
-			<p>
-        <a href="https://arxiv.org/" target="_blank" id="digitaltwiniot">
-          <heading>Framework for Digitalization of Brownfield Deploymentsusing IT-OT Integration and Digital Twins</heading></a><br>
-				  <strong>Gopal Sharma</strong>, Maneet Chatterjee, Harshaditya Punera, Vinod Singh Rao, Aniruddha Mukhopadhyay<br>
-          To be presented at AIIoT 2025 <b></b><br>
-			</p>
-			<div class="paper" id="digitaltwiniot">
-				<a href="https://arxiv.org/" target="_blank">paper</a> 
-        / <a href="https://github.com/" target="_blank">code</a>
-				<br>
-	    </div>
-    </td>
-  </tr>
-  
-  <tr>
-		<td width="33%" valign="top" align="center"><a href="#" target="_self"><img src="Images/efficientmamba.png" alt="efficientmamba" width="100%" style="border-radius:1px"></a></td>
-		<td width="85%" valign="top">
-			<p>
-        <a href="#" id="efficientmamba25">
-          <heading>Beyond CNNs: EfficientMamba Powered Sequence Learning and Curriculum-Guided Domain Adaptation for Fossil Classification</heading></a><br>
-				 <strong>Angshuman Roy</strong>, Anuvab Sen, Samyajit Das, Maneet Chatterjee, Jayanta Paul<br>
-          The 2025 IEEE India Geoscience and Remote Sensing Symposium (<b>InGARSS</b>) 2025<br>
-			</p>
-			<div class="paper" id="efficientmamba25">
-				<a href="https://anonymous.4open.science" target="_blank">paper</a> 
-        / <a href="https://anonymous.4open.science" target="_blank">code</a>
-				<br>
-	    </div>
-    </td>
-  </tr>
-  
-  <tr>
-		<td width="33%" valign="top" align="center"><a href="" target="_self"><img src="Images/eemamba.png" alt="EEMAMBA" width="100%" style="border-radius:1px"></a></td>
-		<td width="67%" valign="top">
-			<p>
-        <a href="" target="_blank" id="EEMAMBA">
-	          <heading>EEMAMBA: A Hardware-Aware Energy-Efficient State-Space Model for EUROSAT Classification</heading></a><br>
-				  <strong>Maneet Chatterjee</strong>, Anuvab Sen, Subhabrata Roy<br>
-          The International Geoscience and Remote Sensing Symposium (<b>IGARSS</b>) 2025<br>
-			</p>
-			<div class="paper" id="EEMAMBA">
-				<a href="https://ieeexplore.ieee.org/document/11314046" target="_blank">paper</a> 
-        / <a href="https://github.com/maneet2004/EEMAMBA" target="_blank">code</a>
-				<br>
-	    </div>
-    </td>
-  </tr>
-
-  <tr>
-		<td width="33%" valign="top" align="center"><a href="" target="_self"><img src="Images/snnexo.png" alt="SNN" width="100%" style="border-radius:1px"></a></td>
-		<td width="67%" valign="top">
-			<p>
-        <a href="https://ieeexplore.ieee.org/abstract/document/10545663" target="_blank" id="Exospikenet">
-          <heading>ExoSpikeNet: A Light Curve Analysis Based Spiking Neural Network for Exoplanet Detection</heading></a><br>
-				  <strong>Maneet Chatterjee</strong>, Anuvab Sen, Subhabrata Roy<br>
-          IEEE 13th International Conference on Communication Systems and Network Technologies (<b>CSNT</b>) 2024, 802-807<br>
-			</p>
-			<div class="paper" id="Exospikenet">
-				<a href="https://ieeexplore.ieee.org/abstract/document/10545663" target="_blank">paper</a> 
-        / <a href="https://github.com/maneet2004/Exoplanet-Classification-using-Spiking-Neural-Networks" target="_blank">code</a>
-				<br>
-	    </div>
-    </td>
-  </tr>
-
-</table>
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
-	<tr><td id="Experience"> <sectionheading>&nbsp;&nbsp;Experience</sectionheading><div style="float: right;"></div></td></tr>
-</table>
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-  <tr>
-		<td width="25%" valign="top">
-      <strong>R&D Intern</strong><br>
-      May 2025 - July 2025<br>
-      <a href="https://www.ku.dk/english/" target="_blank">Synopsys</a><br>
-      Pune, India
-    </td>
-		<td width="75%" valign="top">
-      Worked with <a href="https://www.linkedin.com/in/vinod-singh-rao-b267a928/" target="_blank">Vinod Singh Rao</a> and <a href="https://www.linkedin.com/in/gopal-sharma-3373a1172/" target="_blank">Gopal Sharma</a> in Synopsys-Special Innovation Group (SIG).
-      Developed a real-time digital twin of a 6-axis robotic manipulator, integrating a low-latency data streaming pipeline for synchronized state transfer between the physical system and simulation. Employed computer vision to enable and evaluate diverse robotic manipulation tasks within the Isaac Sim–based physics-aware simulation environment.
-    </td>
-  </tr>
-
-  <tr>
-		<td width="25%" valign="top">
-      <strong>Research Assistant</strong><br>
-      Aug 2024 - Dec 2024<br>
-      <a href="https://www.iiests.ac.in//" target="_blank">IIEST Shibpur</a><br>
-      Kolkata, India
-    </td>
-		<td width="75%" valign="top">
-      Worked with <a href="https://www.iiests.ac.in/IIEST/Faculty/mech-ghoshsudip" target="_blank">Prof. Sudip Ghosh</a> on the system-level design and performance analysis of solar-powered hydrogen electrolysis systems, integrating photovoltaic sources with alkaline/PEM electrolyzers.
-      Designed and optimized DC power conditioning and energy models using real-world irradiance data to estimate hydrogen yield and evaluate system efficiency. 
-    </td>
-  </tr>
-
-
-</td></tr>
-</table>
-
-  <!-- Dark mode JavaScript -->
-  <script>
-    // Check for saved theme preference or default to light mode
-    const currentTheme = localStorage.getItem('theme') || 'light';
-    document.documentElement.setAttribute('data-theme', currentTheme);
-    updateThemeIcon(currentTheme);
-    
-    function toggleTheme() {
-      const currentTheme = document.documentElement.getAttribute('data-theme');
-      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-      
-      document.documentElement.setAttribute('data-theme', newTheme);
-      localStorage.setItem('theme', newTheme);
-      updateThemeIcon(newTheme);
-    }
-    
-    function updateThemeIcon(theme) {
-      const icon = document.getElementById('theme-icon');
-      if (theme === 'dark') {
-        icon.className = 'fa fa-sun-o';
-        icon.title = 'Switch to light mode';
-      } else {
-        icon.className = 'fa fa-moon-o';
-        icon.title = 'Switch to dark mode';
-      }
-    }
-  </script>
-
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#about" aria-label="Maneet Chatterjee, home"><span class="monogram">mc<span>.</span></span><span class="wordmark-name">Maneet Chatterjee</span></a>
+      <nav aria-label="Main navigation"><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+      <div class="header-actions"><button class="theme-toggle" type="button" aria-label="Switch to dark theme" hidden><svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.5 14.3A8.5 8.5 0 0 1 9.7 3.5 8.5 8.5 0 1 0 20.5 14.3Z"/></svg><svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"/></svg></button><a class="small-button" href="assets/Maneet_Chatterjee_CV.pdf">CV <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v5h14v-5"/></svg></a></div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container" id="about" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="short-rule"></span> Mechanical engineering · Intelligent systems</p>
+        <h1 id="hero-title">Maneet<br>Chatterjee<span class="title-dot">.</span></h1>
+        <p class="hero-statement">Building intelligent systems<br>that work in the <em>physical world.</em></p>
+        <p class="hero-description">I work at the intersection of robotics, AI, and aerospace engineering — connecting learning-based methods with simulation, physical constraints, and rigorous validation.</p>
+        <div class="hero-buttons"><a class="button primary" href="#research">Explore my research</a><a class="button secondary" href="assets/Maneet_Chatterjee_CV.pdf">View CV</a></div>
+        <div class="social-links" aria-label="Professional profiles"><a href="https://scholar.google.com/citations?user=Z3N1lSMAAAAJ&amp;hl=en">Google Scholar</a><span aria-hidden="true">/</span><a href="https://github.com/maneetchatterjee">GitHub</a><span aria-hidden="true">/</span><a href="https://www.linkedin.com/in/maneet-chatterjee-778441190/">LinkedIn</a></div>
+      </div>
+      <aside class="hero-profile" aria-label="Profile and education">
+        <div class="portrait-wrap"><img src="Images/maneet_profile.jpg" alt="Maneet Chatterjee" width="1197" height="2048" fetchpriority="high"><span class="portrait-caption">Kolkata, India</span></div>
+        <div class="profile-note"><span class="eyebrow">Currently</span><p>Final-year undergraduate<br><strong>IIEST Shibpur</strong></p><span class="profile-degree">B.Tech. Mechanical Engineering · 2027</span></div>
+      </aside>
+    </section>
+    <div class="affiliation-strip"><div class="container"><span class="eyebrow">Research & R&amp;D experience</span><div class="affiliations"><span>Synopsys</span><span>University of Tsukuba</span><span>Ansys</span><span>IIEST Shibpur</span></div></div></div>
+    <section class="container section" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / Selected work</p><h2 id="research-title">From ideas to <em>validated systems.</em></h2></div><p class="section-intro">Generative engineering, embodied intelligence, and perception — with an emphasis on how models behave beyond training.</p></div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="card-top"><span class="eyebrow">Generative design · Aerospace</span><span class="project-number">01</span></div>
+          <h3>Physics-gated generative CAD<br>for aircraft inverse design</h3>
+          <p>A Python/SUAVE pipeline coupling probabilistic design grammars and Sobol sampling with mission analysis, conservation-law checks, and automated 3D geometry.</p>
+          <div class="project-results"><div><strong>30</strong><span>physical constraints</span></div><div><strong>21/21</strong><span>valid, watertight CAD designs<br>in the evaluated set</span></div></div>
+          <div class="tags"><span>SUAVE</span><span>Python</span><span>Generative CAD</span><span>Physics validation</span></div>
+          <details><summary>Method & validation</summary><div class="detail-content"><p>Combines component-aware design generation with converged mission analysis and watertight STL/OBJ export. The evaluated set includes 11/11 validated turbofan solutions; climb fuel was optimized to 10.2% of maximum takeoff weight.</p><p class="detail-note">Selected project · September 2026. Results describe the evaluated designs.</p></div></details>
+        </article>
+        <article class="project-card">
+          <div class="card-top"><span class="eyebrow">Robotics · Embodied AI</span><span class="project-number">02</span></div>
+          <h3>Vision-language-action<br>robotic manipulation</h3>
+          <p>A CLIP-guided pick-and-place pipeline in PyBullet, connecting language-conditioned object perception to manipulation and confidence-aware evaluation.</p>
+          <div class="project-results"><div><strong>5 / 4</strong><span>objects / sorting zones</span></div><div><strong>0.75</strong><span>ROC-AUC for execution<br>outcome separation</span></div></div>
+          <div class="tags"><span>CLIP ViT-B/32</span><span>PyBullet</span><span>Python</span></div>
+          <details><summary>Method & evaluation</summary><div class="detail-content"><p>Uses the confidence margin between target and distractor objects to quantify semantic ambiguity. Successful and failed executions differed under a Mann–Whitney test (p &lt; 0.01).</p><p class="detail-note">Simulation study. ROC-AUC measures outcome separation.</p></div></details>
+        </article>
+        <article class="project-card">
+          <div class="card-top"><span class="eyebrow">Mechanical design · Reinforcement learning</span><span class="project-number">03</span></div>
+          <h3>MoonBot:<br>rover design to learned locomotion</h3>
+          <p>A six-wheel rover with an articulated arm, developed from SolidWorks CAD through URDF modeling to a Gym-compatible reinforcement learning environment.</p>
+          <div class="tags"><span>SolidWorks</span><span>PyBullet</span><span>PPO</span><span>Gymnasium</span></div>
+          <details><summary>Design & training</summary><div class="detail-content"><p>Models inertial properties, joint constraints, and collision geometry for multi-contact dynamics. PPO locomotion uses mass and friction randomization to address simulation uncertainty.</p><p class="detail-note">Simulation-based development; physical robot deployment remains future work.</p></div></details>
+          <a class="text-link" href="https://github.com/maneetchatterjee/MoonBot">Explore repository <span class="link-mark" aria-hidden="true">↗</span></a>
+        </article>
+        <article class="project-card">
+          <div class="card-top"><span class="eyebrow">Multiphysics · Thermal engineering</span><span class="project-number">04</span></div>
+          <h3>Cross-solver CFD validation<br>of curved cooling ducts</h3>
+          <p>Matched conjugate heat-transfer cases in Fluent, COMSOL, and OpenFOAM, investigating Dean-type vortices and thermal non-uniformity.</p>
+          <div class="project-results compact"><div><strong>+18%</strong><span>mean Nusselt number<br>vs. project baseline</span></div><div><strong>6%</strong><span>pressure-drop agreement<br>across solvers</span></div></div>
+          <div class="tags"><span>Fluent</span><span>COMSOL</span><span>OpenFOAM</span><span>k–ω SST</span></div>
+          <details><summary>Model & application</summary><div class="detail-content"><p>Solves steady incompressible Navier–Stokes and energy equations with k–ω SST turbulence modeling. The study supports thermal design for EV batteries, avionics, and aerospace environmental-control systems.</p><p class="detail-note">Selected project · May 2026. Improvements are relative to the project baseline.</p></div></details>
+        </article>
+      </div>
+    </section>
+    <section class="publications-section" id="publications" aria-labelledby="publications-title"><div class="container section">
+      <div class="section-heading"><div><p class="eyebrow">02 / Papers & preprints</p><h2 id="publications-title">Selected <em>publications.</em></h2></div><a class="text-link" href="https://scholar.google.com/citations?user=Z3N1lSMAAAAJ&amp;hl=en">Google Scholar <span class="link-mark" aria-hidden="true">↗</span></a></div>
+      <div class="publication-list">
+        <article class="publication latest-paper"><div class="pub-year">2026</div><div class="pub-body"><div class="pub-meta"><span class="badge">Preprint</span><span>arXiv · September 2026</span><span>Equal contribution</span></div><h3>Temporally Ordered Region-Token Mamba with Logit-Space Diffusion for Remote Sensing Change Detection</h3><p class="authors">Anuvab Sen, <strong>Maneet Chatterjee</strong>, Aparup Ghosh, Udayon Sen, Arnav Aditya, Yixin Zhang</p><p class="pub-description">BMD-CD combines temporally ordered region tokens, state-space propagation, feature disentanglement, and five-step logit-space diffusion for precise change localization.</p><div class="pub-links"><a href="https://arxiv.org/abs/2609.27149">Paper</a><a href="https://arxiv.org/pdf/2609.27149">PDF</a><a href="https://github.com/Aparup2139/BMD-CD_Remote_Sensing_Change_Detection">Code</a></div></div></article>
+        <article class="publication"><div class="pub-year">2026</div><div class="pub-body"><div class="pub-meta"><span class="badge">CVPR workshop</span><span>MONTI · Non-archival</span><span>First author</span></div><h3>Topology-Constrained Graph-Mamba with Logit Diffusion for Change Detection</h3><p class="authors"><strong>M. Chatterjee</strong>, A. Ghosh, A. Sen, U. Sen</p><div class="pub-links"><a href="https://drive.google.com/file/d/17JkIaBy7NDwSvhO4n0Ao3X1YUClEh4hm/view">Paper</a><a href="https://sites.google.com/view/monti2026/home">Workshop</a></div></div></article>
+        <article class="publication"><div class="pub-year">2025</div><div class="pub-body"><div class="pub-meta"><span class="badge">IEEE InGARSS</span><span>Conference paper</span></div><h3>Beyond CNNs: EfficientMamba Powered Sequence Learning and Curriculum-Guided Domain Adaptation for Fossil Classification</h3><p class="authors">A. Roy, A. Sen, <strong>M. Chatterjee</strong>, S. Das, J. Paul</p></div></article>
+        <article class="publication"><div class="pub-year">2025</div><div class="pub-body"><div class="pub-meta"><span class="badge">IEEE IGARSS</span><span>Conference paper</span><span>First author</span></div><h3>EEMAMBA: A Hardware-Aware Energy-Efficient State-Space Model for EuroSAT Classification</h3><p class="authors"><strong>Maneet Chatterjee</strong>, Anuvab Sen, Subhabrata Roy</p><div class="pub-links"><a href="https://doi.org/10.1109/IGARSS55030.2025.11314046">Paper / DOI</a><a href="https://github.com/maneetchatterjee/EEMAMBA">Code</a></div></div></article>
+        <article class="publication"><div class="pub-year">2024</div><div class="pub-body"><div class="pub-meta"><span class="badge">IEEE CSNT</span><span>Conference paper</span><span>First author</span></div><h3>ExoSpikeNet: A Light Curve Analysis Based Spiking Neural Network for Exoplanet Detection</h3><p class="authors"><strong>Maneet Chatterjee</strong>, Anuvab Sen, Subhabrata Roy</p><div class="pub-links"><a href="https://doi.org/10.1109/CSNT60213.2024.10545663">Paper / DOI</a><a href="https://github.com/maneetchatterjee/Exoplanet-Classification-using-Spiking-Neural-Networks">Code</a></div></div></article>
+      </div>
+    </div></section>
+    <section class="container section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / Research & industry</p><h2 id="experience-title">Engineering across <em>disciplines.</em></h2></div></div>
+      <div class="experience-list">
+        <article class="experience"><div class="experience-date">Jun 2026 — Present<span>Pune, India</span></div><div class="experience-body"><h3>Synopsys <span>R&amp;D Intern</span></h3><p>Developing generative inverse-design methods for conceptual eVTOLs, with a canonical aircraft schema encoding components, configurations, topology, and placement rules.</p><p>Coupled conditional latent diffusion to SUAVE mission analysis, native OpenVSP geometry, and VSPAERO aerodynamics. <strong>91% of generated designs passed geometric and forward-model checks</strong>, with solver convergence, validity, and provenance logged.</p><div class="tags"><span>Inverse design</span><span>Latent diffusion</span><span>OpenVSP / VSPAERO</span></div><a class="text-link" href="https://drive.google.com/file/d/1YoU3d36ymhWs4eFIsAF1hNb0qkFN4sp9/view">Certificate <span class="link-mark" aria-hidden="true">↗</span></a></div></article>
+        <article class="experience"><div class="experience-date">Mar 2026 — Present<span>Tsukuba, Japan</span></div><div class="experience-body"><h3>University of Tsukuba <span>Research Assistant</span></h3><p>Building MedSAM/SAM 3 and VideoMAE pipelines to localize surgical stapler events across <strong>28 laparoscopic procedures, 142 annotated events, and 14,776 frames</strong>.</p><p>Fused frame features, clip representations, region motion, and hard negatives; achieved <strong>91.6% balanced accuracy and 89.7% F1</strong> under five-fold case-disjoint cross-validation, with calibration and safety-rubric assessment.</p><div class="tags"><span>Surgical video understanding</span><span>Segmentation</span><span>Model validation</span></div></div></article>
+        <article class="experience"><div class="experience-date">May — Jul 2025<span>Pune, India</span></div><div class="experience-body"><h3>Ansys <span>R&amp;D Intern</span></h3><p>Developed vision-guided robotic manipulation using OpenCV, PyTorch, and ArUco: object detection, camera calibration, coordinate transforms, and robot kinematics.</p><p>Integrated embedded controllers with MQTT/WebSocket monitoring on Raspberry Pi and validated behavior in Isaac Sim, Blender, and Unreal Engine.</p><div class="tags"><span>Robotics</span><span>Digital twins</span><span>Embedded systems</span></div><a class="text-link" href="https://drive.google.com/file/d/1e1SVIMFcMJ2_qBvzAYmg3ur81VtbYFOM/view">Certificate <span class="link-mark" aria-hidden="true">↗</span></a></div></article>
+        <article class="experience"><div class="experience-date">Aug — Dec 2024<span>Kolkata, India</span></div><div class="experience-body"><h3>IIEST Shibpur <span>Research Assistant</span></h3><p>Modeled solar-powered hydrogen production from measured irradiance and weather data, optimizing photovoltaic–electrolyzer power matching and system performance.</p><div class="tags"><span>Energy systems</span><span>Physical modeling</span></div><a class="text-link" href="https://drive.google.com/file/d/1t5BFDlLzcWPQEwOhAhnQgzKDXOEsy5_d/view">Research report <span class="link-mark" aria-hidden="true">↗</span></a></div></article>
+      </div>
+    </section>
+    <section class="education-section" id="education" aria-labelledby="education-title"><div class="container section">
+      <div class="section-heading"><div><p class="eyebrow">04 / Background</p><h2 id="education-title">Education & <em>recognition.</em></h2></div></div>
+      <div class="background-grid"><div class="education-card"><span class="eyebrow">Aug 2023 — May 2027 · Expected</span><h3>Indian Institute of Engineering Science and Technology Shibpur</h3><p>B.Tech. in Mechanical Engineering</p><div class="gpa"><strong>3.63<span>/4.00</span></strong><span>CGPA through Semester VI</span></div></div><div class="recognition"><h3>Honors & presentations</h3><ul><li><span>2025</span><div><strong>GAABESU Research Award</strong></div></li><li><span>2025</span><div><strong>IEEE GRSS Travel Grant</strong><p>For IGARSS</p></div></li><li><span>2025</span><div><strong>Ansys TechCon & AIIoT</strong><p>Co-authored / presented work on IT–OT integration and digital twins at the 6th Ansys TechCon and 2nd AIIoT.</p></div></li></ul></div></div>
+      <div class="skills"><h3>Technical toolkit</h3><div class="skill-grid"><div><h4>Learning & computation</h4><p>Python · C++ · MATLAB · SQL<br>PyTorch · TensorFlow · OpenCV<br>scikit-learn · Git · Docker</p></div><div><h4>Robotics & simulation</h4><p>ROS 1/2 · NVIDIA Isaac Sim<br>PyBullet · MuJoCo · Gazebo<br>Simulink · Raspberry Pi · MQTT</p></div><div><h4>Design & multiphysics</h4><p>SolidWorks · CATIA · Fusion 360<br>Ansys Mechanical · Abaqus<br>Fluent · OpenFOAM · COMSOL</p></div><div><h4>Aerospace & digital engineering</h4><p>SUAVE · OpenVSP · VSPAERO<br>Digital twins · IT–OT integration<br>InfluxDB · Grafana · LaTeX</p></div></div></div>
+      <div class="certifications"><span class="eyebrow">Selected certifications</span><p>Deep Learning Specialization <span>2026</span> <span class="divider">/</span> <a href="https://drive.google.com/file/d/1nrYq1k4Ozqmmegl4JbmJYUkneP2hB_HM/view">SOLIDWORKS Professional</a> <span>2025</span> <span class="divider">/</span> <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=0e987e16-101c-49fa-9215-90c7fd1559e0">MATLAB Deep Learning</a> <span>2024</span></p></div>
+    </div></section>
+    <section class="container section contact" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">05 / Let's connect</p><h2 id="contact-title">Better systems start with<br><em>good conversations.</em></h2><p>I’m interested in graduate research, research collaborations, and industry R&amp;D opportunities in robotics, AI, and autonomous engineering.</p><a class="contact-email" href="mailto:maneet2018@gmail.com">maneet2018@gmail.com</a></div><div class="contact-links"><a href="assets/Maneet_Chatterjee_CV.pdf">View my CV <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/citations?user=Z3N1lSMAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a><a href="https://github.com/maneetchatterjee">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/maneet-chatterjee-778441190/">LinkedIn <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="container site-footer"><span>© 2026 Maneet Chatterjee</span><span>Kolkata, India · Updated October 2026</span><a href="#about">Back to top</a></footer>
 </body>
-
 </html>
