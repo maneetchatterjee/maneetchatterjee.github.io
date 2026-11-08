@@ -14,24 +14,24 @@ Open `http://localhost:8000` from the repository root.
 
 ## Edit the portfolio
 
-- `index.html`: biography, selected projects, papers, experience, education, contact, and metadata.
+- `index.html`: research overview, recent news, selected projects, publications, experience, education, public profiles, and metadata.
 - `assets/styles.css`: responsive layout, light/dark themes, and print styling.
 - `assets/site.js`: theme toggle and active navigation. All content and project details work without JavaScript.
 - `assets/theme.js`: applies the saved theme before first paint, with system preference as fallback.
-- `assets/Maneet_Chatterjee_CV.pdf`: CV supplied in October 2026. Replace it in place when updating the CV.
-- `Images/maneet_profile.jpg`: existing portrait. Research figures remain available in `Images/`.
+- `Images/`: research visuals only; the personal portrait is no longer hosted.
 - `content/*.html`: redirects retain previously shared URLs.
 
-The homepage deliberately lists relevant research rather than an exhaustive CV. CV metrics retain their evaluation context. Publication status is explicit: the MONTI 2026 paper is a non-archival CVPR workshop paper, and BMD-CD is an arXiv preprint. Only confirmed public repositories and specific paper links are linked; the private VLM project has no public code button.
+The homepage focuses on public research milestones, project outputs, and professional profiles. It intentionally omits email, phone number, personal location, portrait, grade, certificates, and an unredacted CV. Two WACV 2027 main-conference papers are labeled accepted; the CVPR MONTI 2026 paper is described as a workshop paper. Simulation results retain their evaluation context.
 
 ## Content sources
 
-- The supplied `Maneet_CV_one_page.pdf` is authoritative for experience, education, selected projects, honors, and four selected publications.
-- [BMD-CD, arXiv:2609.27149](https://arxiv.org/abs/2609.27149) supplies the September 2026 preprint title, authors, equal-contribution note, and code URL.
-- [MONTI 2026](https://sites.google.com/view/monti2026/home) supplies the accepted workshop paper link and confirms non-archival status.
-- [MoonBot](https://github.com/maneetchatterjee/MoonBot) documents the simulation pipeline and identifies physical deployment as future work.
+- The November 2026 CV informed the research and publications updates. It is not hosted publicly because it contains personal contact information.
+- [BMD-CD](https://arxiv.org/abs/2609.27149) and [INTR++](https://arxiv.org/abs/2610.37178) are publicly linked WACV 2027 works.
+- [MONTI 2026](https://sites.google.com/view/monti2026/home) is identified as a CVPR workshop.
+- [MoonBot](https://github.com/maneetchatterjee/MoonBot) and [SafeVLA-M](https://github.com/maneetchatterjee/SafeVLA-M) are linked public robotics research repositories.
+- The news timeline restores the feature of the earlier portfolio and updates it with recent professional milestones.
 
-When updating, verify author order, venue, publication status, external links, and the date in the footer. Do not infer an accepted conference from a repository name.
+When updating, verify author order, venue, acceptance status, external links, and milestone dates. Avoid adding personal contact details, location, face photos, or an unredacted CV.
 
 ## Deployment
 
