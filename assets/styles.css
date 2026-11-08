@@ -13,3 +13,24 @@
 /* Preserve reflow on narrow screens and when readers enlarge text. */
 body{overflow-wrap:anywhere}.project-results{grid-template-columns:minmax(0,1fr) minmax(0,1.3fr)}.project-results>div{min-width:0}.affiliations>span{min-width:0}
 @media(max-width:600px){.wordmark-name{display:none}.site-header{position:relative}html{scroll-padding-top:2rem}.header-inner{gap:10px 15px}nav{flex-wrap:wrap;gap:8px 20px;justify-content:flex-start}.header-actions{gap:10px}.project-results{grid-template-columns:minmax(0,1fr) minmax(0,1.3fr)}.affiliations{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+
+
+/* Research-focus panel replaces the personal portrait. */
+.focus-panel{padding:30px 26px;border:1px solid var(--line);border-radius:5px;background:var(--surface)}
+.focus-panel>.eyebrow{margin-bottom:22px}
+.focus-line{display:grid;grid-template-columns:26px minmax(0,1fr);align-items:baseline;gap:13px;padding:13px 0;border-top:1px solid var(--line)}
+.focus-line span{font-size:.7rem;font-family:var(--mono);color:var(--accent)}
+.focus-line strong{font-size:1rem;font-weight:500;line-height:1.5}
+.focus-caption{font-size:.8rem;line-height:1.6;color:var(--muted);margin-top:20px}
+.news-section{border-bottom:1px solid var(--line)}
+.news-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.news-item{display:grid;grid-template-columns:110px minmax(0,1fr);gap:26px;padding:23px 0;border-bottom:1px solid var(--line)}
+.news-item:last-child{border-bottom:0}
+.news-date{font-size:.8rem;color:var(--muted);font-family:var(--mono);padding-top:4px}
+.news-content h3{font-size:1.1rem;font-weight:600;line-height:1.5;letter-spacing:-.015em}
+.news-content p{margin-top:7px;color:var(--muted);font-size:.925rem;line-height:1.75;max-width:800px}
+.news-content a{color:var(--accent);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line)}
+.news-content a:hover{text-decoration-color:var(--accent)}
+@media(max-width:800px){.news-item{grid-template-columns:75px minmax(0,1fr);gap:18px}.hero{grid-template-columns:minmax(0,1fr) 240px;gap:32px}}
+@media(max-width:600px){nav{gap:10px}nav a{font-size:.76rem}.hero-profile{display:block;border:0;padding:0}.focus-panel{padding:23px}.news-item{grid-template-columns:1fr;gap:4px;padding:20px 0}.news-date{font-size:.75rem;padding:0}.contact{gap:22px}}
+@media(max-width:390px){nav{flex-wrap:wrap;justify-content:flex-start;gap:3px 14px}}
